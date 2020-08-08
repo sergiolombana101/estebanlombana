@@ -15,6 +15,12 @@
         width: 94%;
         margin-left: 0.5em;
     }
+    .skill-cell{
+        width:100%;
+    }
+    .skill-title{
+        width:100%;
+    }
 }
     
 @media (min-width:481px)  { 
@@ -27,6 +33,12 @@
         border: 0.1em solid white;
         width: 94%;
         margin-left: 0.5em;
+    }
+    .skill-cell{
+        width:100%;
+    }
+    .skill-title{
+        width:100%;
     }
 }
 
@@ -42,6 +54,12 @@
         width: 94%;
         margin-left: 0.5em;
     }
+    .skill-cell{
+        width:100%;
+    }
+    .skill-title{
+        width:100%;
+    }
 }
 
 @media (min-width:750px)  {
@@ -49,6 +67,12 @@
         border: 0.1em solid white;
         width: 45%;
         margin-left: 11.5em;
+    }
+    .skill-cell{
+        width:100%;
+    }
+    .skill-title{
+        width:80%;
     }
 }
     
@@ -63,6 +87,12 @@
         width: 59%;
         margin-left: 9em;
     }
+    .skill-cell{
+        width:50%;
+    }
+    .skill-title{
+        width:80%;
+    }
 }
 
 @media (min-width:1000px) { 
@@ -76,5 +106,61 @@
         width: 41%;
         margin-left: 21em;
     }
+    .skill-cell{
+        width:50%;
+    }
+    .skill-title{
+        width:80%;
+    }
 
+}
+.grid{
+    display:flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    flex-flow:row wrap;
+    width:100%;
+}
+.cell{
+    flex: 0 0 auto;
+    min-height:0px;
+    min-width:0px;
+    -webkit-box-flex: 0;
+}
+
+.about-me-section{
+    background-color:white;
+    padding-top:3em;
+    padding-bottom:3em;
+    width:100%;
+    height: auto;
+}
+.about-me-container h2{
+    color:grey;
+    font-family: TitlingGothicRegular;
+}
+.about-me-container{
+    text-align: center;
+    line-height: 0.02em;
+}
+.about-me-container span{
+    height:.1em;
+    width:7%;
+    background-color: black;
+    display: inline-block;
+}
+.first-skill-text{
+    width: 70%;
+    margin-left: 15%;
+}
+.skill-title{
+    text-align: center;
+    margin-bottom:2em;
+}
+
+/*-----------------------------------------
+    CUSTOM STYLES FOR SAL    
+----------------------------------------*/
+.skill-cell{
+    --sal-duration:3s;
 }
