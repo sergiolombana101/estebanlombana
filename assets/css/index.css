@@ -1,0 +1,80 @@
+@font-face {
+    font-family: TitlingGothicRegular;
+    src: url(../fonts/titling/TitlingGothicFBComp-Reg.otf);
+  }
+
+
+@media (min-width:320px)  { 
+    .name-title{
+        font-size:3em;
+        color:white;
+        font-family: TitlingGothicRegular;
+    }
+    .name-title-container{
+        border: 0.1em solid white;
+        width: 94%;
+        margin-left: 0.5em;
+    }
+}
+    
+@media (min-width:481px)  { 
+    .name-title{
+        font-size:3em;
+        color:white;
+        font-family: TitlingGothicRegular;
+    }
+    .name-title-container{
+        border: 0.1em solid white;
+        width: 94%;
+        margin-left: 0.5em;
+    }
+}
+
+
+@media (min-width:641px)  { 
+    .name-title{
+        font-size:3em;
+        color:white;
+        font-family: TitlingGothicRegular;
+    }
+    .name-title-container{
+        border: 0.1em solid white;
+        width: 94%;
+        margin-left: 0.5em;
+    }
+}
+
+@media (min-width:750px)  {
+    .name-title-container{
+        border: 0.1em solid white;
+        width: 45%;
+        margin-left: 11.5em;
+    }
+}
+    
+@media (min-width:800px)  { 
+    .name-title{
+        color:white;
+        font-family: TitlingGothicRegular;
+        font-size:5em;
+    }
+    .name-title-container{
+        border: 0.1em solid white;
+        width: 59%;
+        margin-left: 9em;
+    }
+}
+
+@media (min-width:1000px) { 
+    .name-title{
+        color:white;
+        font-family: TitlingGothicRegular;
+        font-size:5em;
+    }
+    .name-title-container{
+        border: 0.1em solid white;
+        width: 41%;
+        margin-left: 21em;
+    }
+
+}
